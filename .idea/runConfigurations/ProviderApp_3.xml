@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProviderApp-3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <module name="EurekaProvider" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.cdb.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.cdb.ProviderApp" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+    <envs>
+      <env name="server.port" value="8083" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

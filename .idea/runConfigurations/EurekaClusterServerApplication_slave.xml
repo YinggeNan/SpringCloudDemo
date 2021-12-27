@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="EurekaClusterServerApplication-slave" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <module name="EurekaClusterDemo" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="cdb.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cdb.EurekaClusterServerApplication" />
+    <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=slave" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
